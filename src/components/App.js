@@ -40,7 +40,12 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        {/* Do not remove the main div */}
+        <ol>
+            <li key="India">Goa</li>
+           <li key="Netherlands">Amsterdam</li>
+           <li key="USA">New York</li>
+       
+</ol>
       </div>
     )
   }

@@ -40,7 +40,7 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        <ol>
+        <ol key="cities">
             <li key="India">Goa</li>
            <li key="Netherlands">Amsterdam</li>
            <li key="USA">New York</li>

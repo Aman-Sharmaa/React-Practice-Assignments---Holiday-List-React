@@ -44,6 +44,9 @@ class App extends Component {
             <li key="India">Goa</li>
            <li key="Netherlands">Amsterdam</li>
            <li key="USA">New York</li>
+      <li key="Tokyo">Japan</li>
+      <li key="India">Darjeeling</li>
+      <li key="India">Lonavala</li>
        
 </ol>
       </div>

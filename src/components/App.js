@@ -48,10 +48,13 @@ for (var city in cityList) {
     return (
       <div id="main">
         <ol>
+      {
          keys.map((item,index)=>
          <li key={index}>{item.name}</li>
-    );
-       </ol>
+ 
+    )
+  }
+         </ol> 
       </div>
     )
   }

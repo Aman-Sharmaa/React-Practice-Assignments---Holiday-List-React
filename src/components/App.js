@@ -36,15 +36,22 @@ class App extends Component {
     { name: 'Tirupati', country: 'India' },
     ]
   }
+var keys = [];
+
+for (var city in cityList) {
+ 
+    keys.push(city);
+  
+}
 
   render() {
     return (
       <div id="main">
-        <ol key="cityList ">
-            <li key="India">Goa</li>
-           <li key="Netherlands">Amsterdam</li>
-           <li key="USA">New York</li>
-</ol>
+        <ol>
+         keys.map((item,index)=>
+         <li key={index}>{item.name}</li>
+    );
+       </ol>
       </div>
     )
   }
